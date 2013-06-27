@@ -8,7 +8,6 @@ public class ArticlesActivity extends FragmentActivity{
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
-		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.news_articles);
 		if (findViewById(R.id.article_frag) != null){

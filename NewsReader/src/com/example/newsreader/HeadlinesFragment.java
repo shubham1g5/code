@@ -55,7 +55,6 @@ public class HeadlinesFragment extends ListFragment {
 			String url = params[0];
 			try {
 				GoogleNewsXmlParser mParser = new GoogleNewsXmlParser();
-
 				InputStream content = null;
 				HttpClient client = new DefaultHttpClient();
 				HttpGet httpGet = new HttpGet(url);
