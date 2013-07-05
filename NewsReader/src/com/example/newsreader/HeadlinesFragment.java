@@ -67,7 +67,6 @@ public class HeadlinesFragment extends SherlockListFragment {
 			GoogleNewsXmlParser mParser = new GoogleNewsXmlParser();
 			try {
 				InputStream content = downloadUrl(url);
-
 				try {
 					mItems = mParser.Parse(content);
 				} finally {

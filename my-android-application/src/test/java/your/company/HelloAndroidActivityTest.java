@@ -1,13 +1,11 @@
-import your.company.HelloAndroidActivity;
-import your.company.R;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.Before;
-import org.robolectric.Robolectric;
-import org.robolectric.RobolectricTestRunner;
+package your.company;
 
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.junit.Assert.assertThat;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.robolectric.RobolectricTestRunner;
 
 @RunWith(RobolectricTestRunner.class)
 public class HelloAndroidActivityTest {
