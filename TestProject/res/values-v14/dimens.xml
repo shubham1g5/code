@@ -1,0 +1,10 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+     
+ <!--    <dimen name="list_left_padding">?android:attr/listPreferredItemPaddingLeft</dimen> -->
+    
+    
+    <dimen name="list_right_padding">?android:attr/listPreferredItemPaddingRight</dimen>
+
+</resources>

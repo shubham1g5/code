@@ -1,0 +1,1229 @@
+Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 19:21:28+0530)
+Maven home: /Users/Sreekanth/Documents/artoo/apache-maven-3.0.5
+Java version: 1.6.0_51, vendor: Apple Inc.
+Java home: /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home
+Default locale: en_US, platform encoding: MacRoman
+OS name: "mac os x", version: "10.6.8", arch: "x86_64", family: "mac"
+[INFO] Error stacktraces are turned on.
+[DEBUG] Reading global settings from /Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/conf/settings.xml
+[DEBUG] Reading user settings from /Users/Sreekanth/.m2/settings.xml
+[DEBUG] Using local repository at /Users/Sreekanth/.m2/repository
+[DEBUG] Using manager EnhancedLocalRepositoryManager with priority 10 for /Users/Sreekanth/.m2/repository
+[INFO] Scanning for projects...
+[DEBUG] com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.5.0:
+[DEBUG]    com.android.ddmlib:ddmlib:jar:r16:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0.3:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0.3:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    emma:emma:jar:2.1.5320:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    commons-jxpath:commons-jxpath:jar:1.3:compile
+[DEBUG]    commons-io:commons-io:jar:2.4:compile
+[DEBUG]    org.ow2.asm:asm:jar:4.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]    org.sonatype.aether:aether-util:jar:1.13.1:compile
+[DEBUG]    com.github.rtyley:android-screenshot-paparazzo:jar:1.8:compile
+[DEBUG]       com.madgag:animated-gif-lib:jar:1.0:compile
+[DEBUG] Created new class realm maven.api
+[DEBUG] Importing foreign packages into class realm maven.api
+[DEBUG]   Imported: org.apache.maven.wagon.events < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.transfer < plexus.core
+[DEBUG]   Imported: org.apache.maven.exception < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.metadata < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.Xpp3Dom < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.collection < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.version < plexus.core
+[DEBUG]   Imported: org.apache.maven.monitor < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.resource < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.logging < plexus.core
+[DEBUG]   Imported: org.apache.maven.profiles < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.repository < plexus.core
+[DEBUG]   Imported: org.apache.maven.classrealm < plexus.core
+[DEBUG]   Imported: org.apache.maven.execution < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.artifact < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.spi < plexus.core
+[DEBUG]   Imported: org.apache.maven.reporting < plexus.core
+[DEBUG]   Imported: org.apache.maven.usability < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.container < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.component < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlSerializer < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authentication < plexus.core
+[DEBUG]   Imported: org.apache.maven.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.graph < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.settings < plexus.core
+[DEBUG]   Imported: org.codehaus.classworlds < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.impl < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.toolchain < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.deployment < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.observers < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParserException < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.util.xml.pull.XmlPullParser < plexus.core
+[DEBUG]   Imported: org.apache.maven.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.cli < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.installation < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.context < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.authorization < plexus.core
+[DEBUG]   Imported: org.apache.maven.project < plexus.core
+[DEBUG]   Imported: org.apache.maven.rtinfo < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.lifecycle < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.configuration < plexus.core
+[DEBUG]   Imported: org.apache.maven.artifact < plexus.core
+[DEBUG]   Imported: org.apache.maven.model < plexus.core
+[DEBUG]   Imported: org.apache.maven.* < plexus.core
+[DEBUG]   Imported: org.apache.maven.wagon.proxy < plexus.core
+[DEBUG]   Imported: org.sonatype.aether.resolution < plexus.core
+[DEBUG]   Imported: org.apache.maven.plugin < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.* < plexus.core
+[DEBUG]   Imported: org.codehaus.plexus.personality < plexus.core
+[DEBUG] Populating class realm maven.api
+[DEBUG] Created new class realm extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0
+[DEBUG] Importing foreign packages into class realm extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0
+[DEBUG]   Imported:  < maven.api
+[DEBUG] Populating class realm extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0
+[DEBUG]   Included: com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.5.0
+[DEBUG]   Included: com.android.ddmlib:ddmlib:jar:r16
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.1.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: emma:emma:jar:2.1.5320
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.2
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: commons-jxpath:commons-jxpath:jar:1.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:4.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.13.1
+[DEBUG]   Included: com.github.rtyley:android-screenshot-paparazzo:jar:1.8
+[DEBUG]   Included: com.madgag:animated-gif-lib:jar:1.0
+[DEBUG] Extension realms for project your.company:my-android-application:apk:1.0-SNAPSHOT: [ClassRealm[extension>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]]
+[DEBUG] Created new class realm project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Populating class realm project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Looking up lifecyle mappings for packaging apk from ClassRealm[project>your.company:my-android-application:1.0-SNAPSHOT, parent: ClassRealm[maven.api, parent: null]]
+[DEBUG] === REACTOR BUILD PLAN ================================================
+[DEBUG] Project: your.company:my-android-application:apk:1.0-SNAPSHOT
+[DEBUG] Tasks:   [clean, test]
+[DEBUG] Style:   Regular
+[DEBUG] =======================================================================
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building my-android-application 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-install-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml in local (/Users/Sreekanth/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-install-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-install-plugin to 2.4 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-resources-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml in local (/Users/Sreekanth/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-resources-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-resources-plugin to 2.6 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-compiler-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml in local (/Users/Sreekanth/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-compiler-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-compiler-plugin to 3.1 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-surefire-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml in local (/Users/Sreekanth/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-surefire-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-surefire-plugin to 2.15 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-jar-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml in local (/Users/Sreekanth/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-jar-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-jar-plugin to 2.4 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Resolving plugin version for org.apache.maven.plugins:maven-deploy-plugin
+[DEBUG] Could not find metadata org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml in local (/Users/Sreekanth/.m2/repository)
+[DEBUG] Skipped remote update check for org.apache.maven.plugins:maven-deploy-plugin/maven-metadata.xml, locally cached metadata up-to-date.
+[DEBUG] Resolved plugin version for org.apache.maven.plugins:maven-deploy-plugin to 2.7 from repository central (http://repo.maven.apache.org/maven2, releases)
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] Lifecycle default -> [validate, initialize, generate-sources, process-sources, generate-resources, process-resources, compile, process-classes, generate-test-sources, process-test-sources, generate-test-resources, process-test-resources, test-compile, process-test-classes, test, prepare-package, package, pre-integration-test, integration-test, post-integration-test, verify, install, deploy]
+[DEBUG] Lifecycle clean -> [pre-clean, clean, post-clean]
+[DEBUG] Lifecycle site -> [pre-site, site, post-site, site-deploy]
+[DEBUG] === PROJECT BUILD PLAN ================================================
+[DEBUG] Project:       your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Dependencies (collect): []
+[DEBUG] Dependencies (resolve): [compile, test]
+[DEBUG] Repositories (dependencies): [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] Repositories (plugins)     : [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean (default-clean)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <directory default-value="${project.build.directory}"/>
+  <excludeDefaultDirectories default-value="false">${clean.excludeDefaultDirectories}</excludeDefaultDirectories>
+  <failOnError default-value="true">${maven.clean.failOnError}</failOnError>
+  <followSymLinks default-value="false">${clean.followSymLinks}</followSymLinks>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <reportDirectory default-value="${project.reporting.outputDirectory}"/>
+  <skip default-value="false">${clean.skip}</skip>
+  <testOutputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <verbose>${clean.verbose}</verbose>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0:generate-sources (default-generate-sources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <aaptExtraArgs>${android.aaptExtraArgs}</aaptExtraArgs>
+  <androidManifestFile default-value="${project.basedir}/AndroidManifest.xml"/>
+  <assetsDirectory default-value="${project.basedir}/assets"/>
+  <attachJar default-value="true">${android.attachJar}</attachJar>
+  <attachSources default-value="false">${android.attachSources}</attachSources>
+  <combinedAssets>${project.build.directory}/generated-sources/combined-assets/assets</combinedAssets>
+  <combinedRes>${project.build.directory}/generated-sources/combined-resources/res</combinedRes>
+  <configurations>${android.configurations}</configurations>
+  <customPackage>${android.customPackage}</customPackage>
+  <device>${android.device}</device>
+  <envAndroidHome>${env.ANDROID_HOME}</envAndroidHome>
+  <extractedDependenciesAssets>${project.build.directory}/generated-sources/extracted-dependencies/assets</extractedDependenciesAssets>
+  <extractedDependenciesDirectory>${project.build.directory}/generated-sources/extracted-dependencies</extractedDependenciesDirectory>
+  <extractedDependenciesJavaResources>${project.build.directory}/generated-sources/extracted-dependencies/src/main/resources</extractedDependenciesJavaResources>
+  <extractedDependenciesJavaSources>${project.build.directory}/generated-sources/extracted-dependencies/src/main/java</extractedDependenciesJavaSources>
+  <extractedDependenciesRes>${project.build.directory}/generated-sources/extracted-dependencies/res</extractedDependenciesRes>
+  <genDirectory default-value="${project.build.directory}/generated-sources/r">${android.genDirectory}</genDirectory>
+  <genDirectoryAidl default-value="${project.build.directory}/generated-sources/aidl">${android.genDirectoryAidl}</genDirectoryAidl>
+  <generateApk default-value="true">${android.generateApk}</generateApk>
+  <mergeManifests default-value="false">${android.mergeManifests}</mergeManifests>
+  <nativeLibrariesDirectory default-value="${project.basedir}/libs">${android.nativeLibrariesDirectory}</nativeLibrariesDirectory>
+  <ndkPath>${android.ndk.path}</ndkPath>
+  <project>${project}</project>
+  <projectRepos default-value="${project.remoteProjectRepositories}"/>
+  <release default-value="false">${android.release}</release>
+  <renameManifestPackage>${android.renameManifestPackage}</renameManifestPackage>
+  <repoSession default-value="${repositorySystemSession}"/>
+  <resourceDirectory default-value="${project.basedir}/res"/>
+  <resourceOverlayDirectory default-value="${project.basedir}/res-overlay"/>
+  <sdk>
+    <path>/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk</path>
+    <platform>16</platform>
+  </sdk>
+  <sdkPath>${android.sdk.path}</sdkPath>
+  <sdkPlatform>${android.sdk.platform}</sdkPlatform>
+  <session>${session}</session>
+  <sourceDirectory default-value="${project.build.sourceDirectory}"/>
+  <undeployBeforeDeploy default-value="false">true</undeployBeforeDeploy>
+  <unpackedApkLibsDirectory>${project.build.directory}/unpack/apklibs</unpackedApkLibsDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:resources (default-resources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.resources}"/>
+  <session default-value="${session}"/>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:compile (default-compile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.compileClasspathElements}"/>
+  <compileSourceRoots default-value="${project.compileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedSourcesDirectory default-value="${project.build.directory}/generated-sources/annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.outputDirectory}"/>
+  <projectArtifact default-value="${project.artifact}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skipMain>${maven.main.skip}</skipMain>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0:proguard (default-proguard)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <aaptExtraArgs>${android.aaptExtraArgs}</aaptExtraArgs>
+  <androidManifestFile default-value="${project.basedir}/AndroidManifest.xml"/>
+  <assetsDirectory default-value="${project.basedir}/assets"/>
+  <attachJar default-value="true">${android.attachJar}</attachJar>
+  <attachSources default-value="false">${android.attachSources}</attachSources>
+  <combinedAssets>${project.build.directory}/generated-sources/combined-assets/assets</combinedAssets>
+  <combinedRes>${project.build.directory}/generated-sources/combined-resources/res</combinedRes>
+  <configurations>${android.configurations}</configurations>
+  <customPackage>${android.customPackage}</customPackage>
+  <device>${android.device}</device>
+  <envAndroidHome>${env.ANDROID_HOME}</envAndroidHome>
+  <extractedDependenciesAssets>${project.build.directory}/generated-sources/extracted-dependencies/assets</extractedDependenciesAssets>
+  <extractedDependenciesDirectory>${project.build.directory}/generated-sources/extracted-dependencies</extractedDependenciesDirectory>
+  <extractedDependenciesJavaResources>${project.build.directory}/generated-sources/extracted-dependencies/src/main/resources</extractedDependenciesJavaResources>
+  <extractedDependenciesJavaSources>${project.build.directory}/generated-sources/extracted-dependencies/src/main/java</extractedDependenciesJavaSources>
+  <extractedDependenciesRes>${project.build.directory}/generated-sources/extracted-dependencies/res</extractedDependenciesRes>
+  <generateApk default-value="true">${android.generateApk}</generateApk>
+  <includeJdkLibs>${android.proguard.includeJdkLibs}</includeJdkLibs>
+  <nativeLibrariesDirectory default-value="${project.basedir}/libs">${android.nativeLibrariesDirectory}</nativeLibrariesDirectory>
+  <ndkPath>${android.ndk.path}</ndkPath>
+  <outputDirectory default-value="proguard">${android.proguard.outputDirectory}</outputDirectory>
+  <pluginDependencies>${plugin.artifacts}</pluginDependencies>
+  <proguardConfig>${android.proguard.config}</proguardConfig>
+  <proguardFilterManifest>${android.proguard.filterManifest}</proguardFilterManifest>
+  <proguardFilterMavenDescriptor>${android.proguard.filterMavenDescriptor}</proguardFilterMavenDescriptor>
+  <proguardJvmArguments>${android.proguard.jvmArguments}</proguardJvmArguments>
+  <proguardProguardJarPath>${android.proguard.proguardJarPath}</proguardProguardJarPath>
+  <proguardSkip>${android.proguard.skip}</proguardSkip>
+  <project>${project}</project>
+  <projectRepos default-value="${project.remoteProjectRepositories}"/>
+  <release default-value="false">${android.release}</release>
+  <renameManifestPackage>${android.renameManifestPackage}</renameManifestPackage>
+  <repoSession default-value="${repositorySystemSession}"/>
+  <resourceDirectory default-value="${project.basedir}/res"/>
+  <resourceOverlayDirectory default-value="${project.basedir}/res-overlay"/>
+  <sdk>
+    <path>/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk</path>
+    <platform>16</platform>
+  </sdk>
+  <sdkPath>${android.sdk.path}</sdkPath>
+  <sdkPlatform>${android.sdk.platform}</sdkPlatform>
+  <session>${session}</session>
+  <sourceDirectory default-value="${project.build.sourceDirectory}"/>
+  <undeployBeforeDeploy default-value="false">true</undeployBeforeDeploy>
+  <unpackedApkLibsDirectory>${project.build.directory}/unpack/apklibs</unpackedApkLibsDirectory>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-resources-plugin:2.6:testResources (default-testResources)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <buildFilters default-value="${project.build.filters}"/>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <escapeString>${maven.resources.escapeString}</escapeString>
+  <escapeWindowsPaths default-value="true">${maven.resources.escapeWindowsPaths}</escapeWindowsPaths>
+  <includeEmptyDirs default-value="false">${maven.resources.includeEmptyDirs}</includeEmptyDirs>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <overwrite default-value="false">${maven.resources.overwrite}</overwrite>
+  <project default-value="${project}"/>
+  <resources default-value="${project.testResources}"/>
+  <session default-value="${session}"/>
+  <skip>${maven.test.skip}</skip>
+  <supportMultiLineFiltering default-value="false">${maven.resources.supportMultiLineFiltering}</supportMultiLineFiltering>
+  <useBuildFilters default-value="true"/>
+  <useDefaultDelimiters default-value="true"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile (default-testCompile)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <basedir default-value="${basedir}"/>
+  <buildDirectory default-value="${project.build.directory}"/>
+  <classpathElements default-value="${project.testClasspathElements}"/>
+  <compileSourceRoots default-value="${project.testCompileSourceRoots}"/>
+  <compilerId default-value="javac">${maven.compiler.compilerId}</compilerId>
+  <compilerReuseStrategy default-value="${reuseCreated}">${maven.compiler.compilerReuseStrategy}</compilerReuseStrategy>
+  <compilerVersion>${maven.compiler.compilerVersion}</compilerVersion>
+  <debug default-value="true">${maven.compiler.debug}</debug>
+  <debuglevel>${maven.compiler.debuglevel}</debuglevel>
+  <encoding default-value="${project.build.sourceEncoding}">${encoding}</encoding>
+  <executable>${maven.compiler.executable}</executable>
+  <failOnError default-value="true">${maven.compiler.failOnError}</failOnError>
+  <forceJavacCompilerUse default-value="false">${maven.compiler.forceJavacCompilerUse}</forceJavacCompilerUse>
+  <fork default-value="false">${maven.compiler.fork}</fork>
+  <generatedTestSourcesDirectory default-value="${project.build.directory}/generated-test-sources/test-annotations"/>
+  <maxmem>${maven.compiler.maxmem}</maxmem>
+  <meminitial>${maven.compiler.meminitial}</meminitial>
+  <mojoExecution>${mojoExecution}</mojoExecution>
+  <optimize default-value="false">${maven.compiler.optimize}</optimize>
+  <outputDirectory default-value="${project.build.testOutputDirectory}"/>
+  <showDeprecation default-value="false">${maven.compiler.showDeprecation}</showDeprecation>
+  <showWarnings default-value="false">${maven.compiler.showWarnings}</showWarnings>
+  <skip>${maven.test.skip}</skip>
+  <skipMultiThreadWarning default-value="false">${maven.compiler.skipMultiThreadWarning}</skipMultiThreadWarning>
+  <source default-value="1.5">${maven.compiler.source}</source>
+  <staleMillis default-value="0">${lastModGranularityMs}</staleMillis>
+  <target default-value="1.5">${maven.compiler.target}</target>
+  <testSource>${maven.compiler.testSource}</testSource>
+  <testTarget>${maven.compiler.testTarget}</testTarget>
+  <useIncrementalCompilation default-value="true">${maven.compiler.useIncrementalCompilation}</useIncrementalCompilation>
+  <verbose default-value="false">${maven.compiler.verbose}</verbose>
+  <mavenSession default-value="${session}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] -----------------------------------------------------------------------
+[DEBUG] Goal:          org.apache.maven.plugins:maven-surefire-plugin:2.15:test (default-test)
+[DEBUG] Style:         Regular
+[DEBUG] Configuration: <?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+  <additionalClasspathElements>${maven.test.additionalClasspath}</additionalClasspathElements>
+  <argLine>${argLine}</argLine>
+  <basedir default-value="${basedir}"/>
+  <childDelegation default-value="false">${childDelegation}</childDelegation>
+  <classesDirectory default-value="${project.build.outputDirectory}"/>
+  <classpathDependencyExcludes>${maven.test.dependency.excludes}</classpathDependencyExcludes>
+  <debugForkedProcess>${maven.surefire.debug}</debugForkedProcess>
+  <dependenciesToScan>${dependenciesToScan}</dependenciesToScan>
+  <disableXmlReport default-value="false">${disableXmlReport}</disableXmlReport>
+  <enableAssertions default-value="true">${enableAssertions}</enableAssertions>
+  <excludedGroups>${excludedGroups}</excludedGroups>
+  <failIfNoSpecifiedTests>${surefire.failIfNoSpecifiedTests}</failIfNoSpecifiedTests>
+  <failIfNoTests>${failIfNoTests}</failIfNoTests>
+  <forkCount default-value="1">${forkCount}</forkCount>
+  <forkMode default-value="once">${forkMode}</forkMode>
+  <forkedProcessTimeoutInSeconds>${surefire.timeout}</forkedProcessTimeoutInSeconds>
+  <groups>${groups}</groups>
+  <junitArtifactName default-value="junit:junit">${junitArtifactName}</junitArtifactName>
+  <jvm>${jvm}</jvm>
+  <localRepository default-value="${localRepository}"/>
+  <objectFactory>${objectFactory}</objectFactory>
+  <parallel>${parallel}</parallel>
+  <parallelMavenExecution default-value="${session.parallel}"/>
+  <perCoreThreadCount default-value="true">${perCoreThreadCount}</perCoreThreadCount>
+  <pluginArtifactMap>${plugin.artifactMap}</pluginArtifactMap>
+  <pluginDescriptor default-value="${plugin}"/>
+  <printSummary default-value="true">${surefire.printSummary}</printSummary>
+  <projectArtifactMap>${project.artifactMap}</projectArtifactMap>
+  <redirectTestOutputToFile default-value="false">${maven.test.redirectTestOutputToFile}</redirectTestOutputToFile>
+  <remoteRepositories default-value="${project.pluginArtifactRepositories}"/>
+  <reportFormat default-value="brief">${surefire.reportFormat}</reportFormat>
+  <reportNameSuffix default-value="">${surefire.reportNameSuffix}</reportNameSuffix>
+  <reportsDirectory default-value="${project.build.directory}/surefire-reports"/>
+  <reuseForks default-value="true">${reuseForks}</reuseForks>
+  <runOrder default-value="filesystem"/>
+  <skip default-value="false">${maven.test.skip}</skip>
+  <skipExec>${maven.test.skip.exec}</skipExec>
+  <skipTests default-value="false">${skipTests}</skipTests>
+  <test>${test}</test>
+  <testClassesDirectory default-value="${project.build.testOutputDirectory}"/>
+  <testFailureIgnore default-value="false">${maven.test.failure.ignore}</testFailureIgnore>
+  <testNGArtifactName default-value="org.testng:testng">${testNGArtifactName}</testNGArtifactName>
+  <testSourceDirectory default-value="${project.build.testSourceDirectory}"/>
+  <threadCount>${threadCount}</threadCount>
+  <trimStackTrace default-value="true">${trimStackTrace}</trimStackTrace>
+  <useFile default-value="true">${surefire.useFile}</useFile>
+  <useManifestOnlyJar default-value="true">${surefire.useManifestOnlyJar}</useManifestOnlyJar>
+  <useSystemClassLoader default-value="true">${surefire.useSystemClassLoader}</useSystemClassLoader>
+  <useUnlimitedThreads default-value="false">${useUnlimitedThreads}</useUnlimitedThreads>
+  <workingDirectory>${basedir}</workingDirectory>
+  <project default-value="${project}"/>
+  <session default-value="${session}"/>
+</configuration>
+[DEBUG] =======================================================================
+[DEBUG] your.company:my-android-application:apk:1.0-SNAPSHOT
+[DEBUG]    com.google.android:android:jar:2.2.1:provided
+[DEBUG]       commons-logging:commons-logging:jar:1.1.1:provided
+[DEBUG]       org.apache.httpcomponents:httpclient:jar:4.0.1:provided
+[DEBUG]          org.apache.httpcomponents:httpcore:jar:4.0.1:provided
+[DEBUG]       org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:provided
+[DEBUG]       xerces:xmlParserAPIs:jar:2.6.2:provided
+[DEBUG]       xpp3:xpp3:jar:1.1.4c:provided
+[DEBUG]       org.json:json:jar:20080701:provided
+[DEBUG]    org.robolectric:robolectric:jar:2.1.1:test
+[DEBUG]       org.objenesis:objenesis:jar:1.3:test
+[DEBUG]       org.xerial:sqlite-jdbc:jar:3.7.2:test
+[DEBUG]       org.ow2.asm:asm:jar:4.1:test
+[DEBUG]       org.ow2.asm:asm-commons:jar:4.1:test
+[DEBUG]          org.ow2.asm:asm-tree:jar:4.1:test
+[DEBUG]       org.ow2.asm:asm-util:jar:4.1:test
+[DEBUG]       org.ow2.asm:asm-analysis:jar:4.1:test
+[DEBUG]       commons-codec:commons-codec:jar:1.3:provided
+[DEBUG]       com.ximpleware:vtd-xml:jar:2.11:test
+[DEBUG]       com.google.android:support-v4:jar:r7:test
+[DEBUG]       org.easytesting:fest-util:jar:1.2.5:test
+[DEBUG]       org.easytesting:fest-reflect:jar:1.4.1:test
+[DEBUG]       com.googlecode.catch-exception:catch-exception:jar:1.0.4:test
+[DEBUG]          org.mockito:mockito-core:jar:1.8.5:test
+[DEBUG]       org.apache.maven:maven-ant-tasks:jar:2.1.3:test
+[DEBUG]          org.apache.ant:ant:jar:1.8.0:test
+[DEBUG]             org.apache.ant:ant-launcher:jar:1.8.0:test
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:test
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.15:test
+[DEBUG]          org.codehaus.plexus:plexus-interpolation:jar:1.11:test
+[DEBUG]          org.apache.maven:maven-artifact:jar:2.2.1:test
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.2.1:test
+[DEBUG]             org.apache.maven:maven-repository-metadata:jar:2.2.1:test
+[DEBUG]             backport-util-concurrent:backport-util-concurrent:jar:3.1:test
+[DEBUG]          org.apache.maven:maven-model:jar:2.2.1:test
+[DEBUG]          org.apache.maven:maven-project:jar:2.2.1:test
+[DEBUG]             org.apache.maven:maven-profile:jar:2.2.1:test
+[DEBUG]             org.apache.maven:maven-plugin-registry:jar:2.2.1:test
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.2.1:test
+[DEBUG]          org.apache.maven:maven-settings:jar:2.2.1:test
+[DEBUG]          org.apache.maven.wagon:wagon-file:jar:1.0-beta-6:test
+[DEBUG]          org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-6:test
+[DEBUG]             org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-6:test
+[DEBUG]                nekohtml:xercesMinimal:jar:1.9.6.2:test
+[DEBUG]                nekohtml:nekohtml:jar:1.9.6.2:test
+[DEBUG]          org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:test
+[DEBUG]    junit:junit:jar:4.11:test
+[DEBUG]       org.hamcrest:hamcrest-core:jar:1.3:test
+[INFO] 
+[INFO] --- maven-clean-plugin:2.4.1:clean (default-clean) @ my-android-application ---
+[DEBUG] org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Imported:  < project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-clean-plugin:jar:2.4.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-clean-plugin:2.4.1, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-clean-plugin:2.4.1:clean' with basic configurator -->
+[DEBUG]   (f) directory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target
+[DEBUG]   (f) excludeDefaultDirectories = false
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) followSymLinks = false
+[DEBUG]   (f) outputDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG]   (f) reportDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/site
+[DEBUG]   (f) skip = false
+[DEBUG]   (f) testOutputDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+[DEBUG] -- end configuration --
+[INFO] Deleting /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/testCompile
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/compile/default-compile
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin/compile
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status/maven-compiler-plugin
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/maven-status
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r/your/company/R.java
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r/your/company/BuildConfig.java
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r/your/company
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r/your
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/aidl
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/R.class
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/R$string.class
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/R$layout.class
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/R$drawable.class
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/R$attr.class
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/HelloAndroidActivity.class
+[INFO] Deleting file /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company/BuildConfig.class
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your/company
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes/your
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[INFO] Deleting directory /Users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target
+[DEBUG] Skipping non-existing directory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG] Skipping non-existing directory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+[DEBUG] Skipping non-existing directory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/site
+[INFO] 
+[INFO] --- android-maven-plugin:3.5.0:generate-sources (default-generate-sources) @ my-android-application ---
+[DEBUG] com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.5.0:
+[DEBUG]    com.android.ddmlib:ddmlib:jar:r16:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-model:jar:3.0.3:compile
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:3.0.3:compile
+[DEBUG]       org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1:compile
+[DEBUG]          org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile
+[DEBUG]             org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile
+[DEBUG]    org.apache.maven:maven-compat:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-model-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:3.0.3:compile
+[DEBUG]       org.codehaus.plexus:plexus-interpolation:jar:1.14:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]       org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7:compile
+[DEBUG]    org.apache.maven:maven-core:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-settings-builder:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:3.0.3:compile
+[DEBUG]       org.apache.maven:maven-aether-provider:jar:3.0.3:compile
+[DEBUG]          org.sonatype.aether:aether-spi:jar:1.11:compile
+[DEBUG]       org.sonatype.aether:aether-impl:jar:1.11:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.4:compile
+[DEBUG]       org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile
+[DEBUG]          org.sonatype.plexus:plexus-cipher:jar:1.4:compile
+[DEBUG]    org.apache.maven:maven-archiver:jar:2.5:compile
+[DEBUG]    emma:emma:jar:2.1.5320:compile
+[DEBUG]    org.codehaus.plexus:plexus-archiver:jar:2.2:compile
+[DEBUG]       org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]          junit:junit:jar:3.8.1:compile
+[DEBUG]          classworlds:classworlds:jar:1.1-alpha-2:compile
+[DEBUG]       org.codehaus.plexus:plexus-io:jar:2.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:3.0.10:compile
+[DEBUG]    commons-jxpath:commons-jxpath:jar:1.3:compile
+[DEBUG]    commons-io:commons-io:jar:2.4:compile
+[DEBUG]    org.ow2.asm:asm:jar:4.1:compile
+[DEBUG]    commons-lang:commons-lang:jar:2.6:compile
+[DEBUG]    org.sonatype.aether:aether-api:jar:1.13.1:compile
+[DEBUG]    org.sonatype.aether:aether-util:jar:1.13.1:compile
+[DEBUG]    com.github.rtyley:android-screenshot-paparazzo:jar:1.8:compile
+[DEBUG]       com.madgag:animated-gif-lib:jar:1.0:compile
+[DEBUG] Created new class realm plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0
+[DEBUG] Importing foreign packages into class realm plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0
+[DEBUG]   Imported:  < project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0
+[DEBUG]   Included: com.jayway.maven.plugins.android.generation2:android-maven-plugin:jar:3.5.0
+[DEBUG]   Included: com.android.ddmlib:ddmlib:jar:r16
+[DEBUG]   Included: org.sonatype.sisu:sisu-inject-bean:jar:2.1.1
+[DEBUG]   Included: org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.14
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3
+[DEBUG]   Included: org.sonatype.plexus:plexus-cipher:jar:1.4
+[DEBUG]   Included: org.apache.maven:maven-archiver:jar:2.5
+[DEBUG]   Included: emma:emma:jar:2.1.5320
+[DEBUG]   Included: org.codehaus.plexus:plexus-archiver:jar:2.2
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-io:jar:2.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:3.0.10
+[DEBUG]   Included: commons-jxpath:commons-jxpath:jar:1.3
+[DEBUG]   Included: commons-io:commons-io:jar:2.4
+[DEBUG]   Included: org.ow2.asm:asm:jar:4.1
+[DEBUG]   Included: commons-lang:commons-lang:jar:2.6
+[DEBUG]   Included: org.sonatype.aether:aether-util:jar:1.13.1
+[DEBUG]   Included: com.github.rtyley:android-screenshot-paparazzo:jar:1.8
+[DEBUG]   Included: com.madgag:animated-gif-lib:jar:1.0
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:3.0.3
+[DEBUG]   Excluded: org.sonatype.sisu:sisu-inject-plexus:jar:2.1.1
+[DEBUG]   Excluded: org.apache.maven:maven-compat:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-model-builder:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-7
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-settings-builder:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:3.0.3
+[DEBUG]   Excluded: org.apache.maven:maven-aether-provider:jar:3.0.3
+[DEBUG]   Excluded: org.sonatype.aether:aether-spi:jar:1.11
+[DEBUG]   Excluded: org.sonatype.aether:aether-impl:jar:1.11
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.4
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1-alpha-2
+[DEBUG]   Excluded: org.sonatype.aether:aether-api:jar:1.13.1
+[DEBUG] Configuring mojo com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0:generate-sources from plugin realm ClassRealm[plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0:generate-sources' with basic configurator -->
+[DEBUG]   (f) aaptExtraArgs = []
+[DEBUG]   (f) androidManifestFile = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/AndroidManifest.xml
+[DEBUG]   (f) assetsDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/assets
+[DEBUG]   (f) attachJar = true
+[DEBUG]   (f) attachSources = false
+[DEBUG]   (f) combinedAssets = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/combined-assets/assets
+[DEBUG]   (f) combinedRes = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/combined-resources/res
+[DEBUG]   (f) envAndroidHome = /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk
+[DEBUG]   (f) extractedDependenciesAssets = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/assets
+[DEBUG]   (f) extractedDependenciesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies
+[DEBUG]   (f) extractedDependenciesJavaResources = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/resources
+[DEBUG]   (f) extractedDependenciesJavaSources = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/java
+[DEBUG]   (f) extractedDependenciesRes = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/res
+[DEBUG]   (f) genDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r
+[DEBUG]   (f) genDirectoryAidl = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/aidl
+[DEBUG]   (f) generateApk = true
+[DEBUG]   (f) mergeManifests = false
+[DEBUG]   (f) nativeLibrariesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/libs
+[DEBUG]   (f) project = MavenProject: your.company:my-android-application:1.0-SNAPSHOT @ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/pom.xml
+[DEBUG]   (f) projectRepos = [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG]   (f) release = false
+[DEBUG]   (f) repoSession = org.sonatype.aether.util.DefaultRepositorySystemSession@203c9616
+[DEBUG]   (f) resourceDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/res
+[DEBUG]   (f) resourceOverlayDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/res-overlay
+[DEBUG]   (f) path = /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk
+[DEBUG]   (f) platform = 16
+[DEBUG]   (f) sdk = com.jayway.maven.plugins.android.configuration.Sdk@6dabcd9b
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG]   (f) sourceDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java
+[DEBUG]   (f) undeployBeforeDeploy = true
+[DEBUG]   (f) unpackedApkLibsDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/unpack/apklibs
+[DEBUG] -- end configuration --
+[INFO] ANDROID-904-002: Found aidl files: Count = 0
+[INFO] ANDROID-904-002: Found aidl files: Count = 0
+[DEBUG] mergeManifests: false
+[INFO] Manifest merging disabled. Using project manifest only
+[DEBUG] Generating R file for apk
+[INFO] /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/aapt [package, -m, -J, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r, -M, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/AndroidManifest.xml, -S, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/res, --auto-add-overlay, -A, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/assets, -I, /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/platforms/android-16/android.jar]
+[DEBUG] ANDROID-040-000: Executed command: Commandline = /bin/sh -c cd /users/Sreekanth/Documents/artoo/Code/Android/my-android-application && /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/platform-tools/aapt package -m -J /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r -M /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/AndroidManifest.xml -S /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/res --auto-add-overlay -A /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/assets -I /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/platforms/android-16/android.jar, Result = 0
+[DEBUG] Generating R file for projects dependent on apklibs
+[DEBUG] Generating BuildConfig file
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ my-android-application ---
+[DEBUG] org.apache.maven.plugins:maven-resources-plugin:jar:2.6:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-project:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-registry:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6:compile
+[DEBUG]       org.apache.maven.reporting:maven-reporting-api:jar:2.0.6:compile
+[DEBUG]          org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.6:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.6:compile
+[DEBUG]       commons-cli:commons-cli:jar:1.0:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.6:compile
+[DEBUG]       org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4:compile
+[DEBUG]       classworlds:classworlds:jar:1.1:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-settings:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-model:jar:2.0.6:compile
+[DEBUG]    org.apache.maven:maven-monitor:jar:2.0.6:compile
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]       junit:junit:jar:3.8.1:compile
+[DEBUG]    org.codehaus.plexus:plexus-utils:jar:2.0.5:compile
+[DEBUG]    org.apache.maven.shared:maven-filtering:jar:1.1:compile
+[DEBUG]       org.sonatype.plexus:plexus-build-api:jar:0.0.4:compile
+[DEBUG]    org.codehaus.plexus:plexus-interpolation:jar:1.13:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Imported:  < project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-resources-plugin:2.6
+[DEBUG]   Included: org.apache.maven.plugins:maven-resources-plugin:jar:2.6
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.6
+[DEBUG]   Included: org.apache.maven.doxia:doxia-sink-api:jar:1.0-alpha-7
+[DEBUG]   Included: commons-cli:commons-cli:jar:1.0
+[DEBUG]   Included: org.codehaus.plexus:plexus-interactivity-api:jar:1.0-alpha-4
+[DEBUG]   Included: junit:junit:jar:3.8.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:2.0.5
+[DEBUG]   Included: org.apache.maven.shared:maven-filtering:jar:1.1
+[DEBUG]   Included: org.sonatype.plexus:plexus-build-api:jar:0.0.4
+[DEBUG]   Included: org.codehaus.plexus:plexus-interpolation:jar:1.13
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.6
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.6
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.6
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:resources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:resources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: your.company:my-android-application:1.0-SNAPSHOT @ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/resources, PatternSet [includes: {}, excludes: {}]}}, Resource {targetPath: null, filtering: false, FileSet {directory: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Apple Inc., sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.COLORFGBG=7;0, os.name=Mac OS X, sun.boot.class.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar, env.TMPDIR=/var/folders/AY/AYMsX3OlHryaCyCSnV0ST++++TM/-Tmp-/, env.PWD=/Users/Sreekanth/Documents/artoo/Code/Android/my-android-application, java.vm.specification.vendor=Sun Microsystems Inc., java.runtime.version=1.6.0_51-b11-456-10M4508, env.JAVA_MAIN_CLASS_934=org.codehaus.plexus.classworlds.launcher.Launcher, env.Apple_PubSub_Socket_Render=/tmp/launch-OkXqMF/Render, env.DISPLAY=/tmp/launch-0tI8vt/org.x:0, user.name=Sreekanth, maven.build.version=Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 19:21:28+0530), env.USER=Sreekanth, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0:0, awt.nativeDoubleBuffering=true, env.PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin:/Applications/play-1.2:/usr/local/git/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin:/Applications/play-1.2:/usr/local/git/bin:/usr/X11/bin:/Users/Sreekanth/Work/ec2/bin:/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/platform-tools:/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/tools:/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/bin:/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk, user.language=en, sun.boot.library.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries, classworlds.conf=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/bin/m2.conf, env.LC_CTYPE=UTF-8, java.version=1.6.0_51, user.timezone=GMT+05:30, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=MacRoman, env.ITERM_SESSION_ID=w0t0p0, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=50.0, user.country=US, java.home=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home, env.ANDROID_HOME=/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk, java.vm.info=mixed mode, env.LOGNAME=Sreekanth, os.version=10.6.8, path.separator=:, java.vm.version=20.51-b01-456, java.awt.printerjob=apple.awt.CPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=apple.awt.CToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/Sreekanth, java.specification.vendor=Sun Microsystems Inc., env.TERM_PROGRAM=iTerm.app, env.M2_HOME=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5, java.library.path=.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, java.vendor.url=http://www.apple.com/, java.vm.vendor=Apple Inc., gopherProxySet=false, maven.home=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean test, java.class.path=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/boot/plexus-classworlds-2.4.jar, env.com.apple.java.jvmMode=client, maven.version=3.0.5, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.0, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/Sreekanth, java.io.tmpdir=/var/folders/AY/AYMsX3OlHryaCyCSnV0ST++++TM/-Tmp-/, java.vendor.url.bug=http://bugreport.apple.com/, env.MAVEN_OPTS=-Xms256m -Xmx512m, env.SSH_AUTH_SOCK=/tmp/launch-5JPknS/Listeners, env.COMMAND_MODE=unix2003, mrj.build=10M4508, os.arch=x86_64, java.awt.graphicsenv=apple.awt.CGraphicsEnvironment, java.ext.dirs=/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext, mrj.version=1060.1.6.0_51-456, env.com.apple.java.jvmTask=CommandLine_Manual.java, user.dir=/users/Sreekanth/Documents/artoo/Code/Android/my-android-application, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.ITERM_PROFILE=Default, env.M2=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/bin, file.encoding=MacRoman, java.specification.version=1.6}
+[WARNING] Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/resources
+[DEBUG] resource with targetPath null
+directory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ my-android-application ---
+[DEBUG] org.apache.maven.plugins:maven-compiler-plugin:jar:3.1:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]       org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]    org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:1.0:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-utils:jar:0.1:compile
+[DEBUG]       com.google.code.findbugs:jsr305:jar:2.0.1:compile
+[DEBUG]    org.apache.maven.shared:maven-shared-incremental:jar:1.1:compile
+[DEBUG]       org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-api:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-manager:jar:2.2:compile
+[DEBUG]    org.codehaus.plexus:plexus-compiler-javac:jar:2.2:runtime
+[DEBUG]    org.codehaus.plexus:plexus-container-default:jar:1.5.5:compile
+[DEBUG]       org.codehaus.plexus:plexus-classworlds:jar:2.2.2:compile
+[DEBUG]       org.apache.xbean:xbean-reflect:jar:3.4:compile
+[DEBUG]          log4j:log4j:jar:1.2.12:compile
+[DEBUG]          commons-logging:commons-logging-api:jar:1.1:compile
+[DEBUG]       com.google.collections:google-collections:jar:1.0:compile
+[DEBUG]       junit:junit:jar:3.8.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Imported:  < project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1
+[DEBUG]   Included: org.apache.maven.plugins:maven-compiler-plugin:jar:3.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-utils:jar:0.1
+[DEBUG]   Included: com.google.code.findbugs:jsr305:jar:2.0.1
+[DEBUG]   Included: org.apache.maven.shared:maven-shared-incremental:jar:1.1
+[DEBUG]   Included: org.codehaus.plexus:plexus-component-annotations:jar:1.5.5
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-api:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-manager:jar:2.2
+[DEBUG]   Included: org.codehaus.plexus:plexus-compiler-javac:jar:2.2
+[DEBUG]   Included: org.apache.xbean:xbean-reflect:jar:3.4
+[DEBUG]   Included: log4j:log4j:jar:1.2.12
+[DEBUG]   Included: commons-logging:commons-logging-api:jar:1.1
+[DEBUG]   Included: com.google.collections:google-collections:jar:1.0
+[DEBUG]   Included: junit:junit:jar:3.8.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:1.0
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.5.5
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-classworlds:jar:2.2.2
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:compile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:compile' with basic configurator -->
+[DEBUG]   (f) basedir = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application
+[DEBUG]   (f) buildDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target
+[DEBUG]   (f) classpathElements = [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes, /Users/Sreekanth/.m2/repository/com/google/android/android/2.2.1/android-2.2.1.jar, /Users/Sreekanth/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar, /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar, /Users/Sreekanth/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar, /Users/Sreekanth/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar, /Users/Sreekanth/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar, /Users/Sreekanth/.m2/repository/org/json/json/20080701/json-20080701.jar, /Users/Sreekanth/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/java, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/aidl]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedSourcesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:compile {execution: default-compile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG]   (f) projectArtifact = your.company:my-android-application:apk:1.0-SNAPSHOT
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java
+ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r
+ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/aidl]
+[DEBUG] Classpath: [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+ /Users/Sreekanth/.m2/repository/com/google/android/android/2.2.1/android-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+ /Users/Sreekanth/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+ /Users/Sreekanth/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+ /Users/Sreekanth/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+ /Users/Sreekanth/.m2/repository/org/json/json/20080701/json-20080701.jar
+ /Users/Sreekanth/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar]
+[DEBUG] Output directory: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[DEBUG] Stale source detected: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r/your/company/BuildConfig.java
+[DEBUG] Stale source detected: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r/your/company/R.java
+[DEBUG] Stale source detected: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java/your/company/HelloAndroidActivity.java
+[INFO] Changes detected - recompiling the module!
+[DEBUG] Classpath:
+[DEBUG]  /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG]  /Users/Sreekanth/.m2/repository/com/google/android/android/2.2.1/android-2.2.1.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/org/json/json/20080701/json-20080701.jar
+[DEBUG]  /Users/Sreekanth/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+[DEBUG] Source roots:
+[DEBUG]  /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java
+[DEBUG]  /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/java
+[DEBUG]  /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r
+[DEBUG]  /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/aidl
+[DEBUG] Command line options:
+[DEBUG] -d /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes -classpath /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes:/Users/Sreekanth/.m2/repository/com/google/android/android/2.2.1/android-2.2.1.jar:/Users/Sreekanth/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar:/Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar:/Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar:/Users/Sreekanth/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar:/Users/Sreekanth/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar:/Users/Sreekanth/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar:/Users/Sreekanth/.m2/repository/org/json/json/20080701/json-20080701.jar:/Users/Sreekanth/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar: -sourcepath /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java:/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/r:/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/aidl: -g -nowarn -target 1.5 -source 1.5
+[WARNING] File encoding has not been set, using platform encoding MacRoman, i.e. build is platform dependent!
+[DEBUG] incrementalBuildHelper#beforeRebuildExecution
+[INFO] Compiling 3 source files to /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG] incrementalBuildHelper#afterRebuildExecution
+[INFO] 
+[INFO] --- android-maven-plugin:3.5.0:proguard (default-proguard) @ my-android-application ---
+[DEBUG] Configuring mojo com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0:proguard from plugin realm ClassRealm[plugin>com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'com.jayway.maven.plugins.android.generation2:android-maven-plugin:3.5.0:proguard' with basic configurator -->
+[DEBUG]   (f) aaptExtraArgs = []
+[DEBUG]   (f) androidManifestFile = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/AndroidManifest.xml
+[DEBUG]   (f) assetsDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/assets
+[DEBUG]   (f) attachJar = true
+[DEBUG]   (f) attachSources = false
+[DEBUG]   (f) combinedAssets = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/combined-assets/assets
+[DEBUG]   (f) combinedRes = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/combined-resources/res
+[DEBUG]   (f) envAndroidHome = /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk
+[DEBUG]   (f) extractedDependenciesAssets = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/assets
+[DEBUG]   (f) extractedDependenciesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies
+[DEBUG]   (f) extractedDependenciesJavaResources = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/resources
+[DEBUG]   (f) extractedDependenciesJavaSources = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/src/main/java
+[DEBUG]   (f) extractedDependenciesRes = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-sources/extracted-dependencies/res
+[DEBUG]   (f) generateApk = true
+[DEBUG]   (f) nativeLibrariesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/libs
+[DEBUG]   (f) outputDirectory = proguard
+[DEBUG]   (f) pluginDependencies = [com.jayway.maven.plugins.android.generation2:android-maven-plugin:maven-plugin:3.5.0:, com.android.ddmlib:ddmlib:jar:r16:compile, org.sonatype.sisu:sisu-inject-bean:jar:2.1.1:compile, org.sonatype.sisu:sisu-guice:jar:no_aop:2.9.4:compile, org.codehaus.plexus:plexus-interpolation:jar:1.14:compile, org.codehaus.plexus:plexus-component-annotations:jar:1.5.5:compile, org.sonatype.plexus:plexus-sec-dispatcher:jar:1.3:compile, org.sonatype.plexus:plexus-cipher:jar:1.4:compile, org.apache.maven:maven-archiver:jar:2.5:compile, emma:emma:jar:2.1.5320:compile, org.codehaus.plexus:plexus-archiver:jar:2.2:compile, junit:junit:jar:3.8.1:compile, org.codehaus.plexus:plexus-io:jar:2.0.4:compile, org.codehaus.plexus:plexus-utils:jar:3.0.10:compile, commons-jxpath:commons-jxpath:jar:1.3:compile, commons-io:commons-io:jar:2.4:compile, org.ow2.asm:asm:jar:4.1:compile, commons-lang:commons-lang:jar:2.6:compile, org.sonatype.aether:aether-util:jar:1.13.1:compile, com.github.rtyley:android-screenshot-paparazzo:jar:1.8:compile, com.madgag:animated-gif-lib:jar:1.0:compile]
+[DEBUG]   (f) proguardJvmArguments = []
+[DEBUG]   (f) project = MavenProject: your.company:my-android-application:1.0-SNAPSHOT @ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/pom.xml
+[DEBUG]   (f) projectRepos = [central (http://repo.maven.apache.org/maven2, releases)]
+[DEBUG]   (f) release = false
+[DEBUG]   (f) repoSession = org.sonatype.aether.util.DefaultRepositorySystemSession@203c9616
+[DEBUG]   (f) resourceDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/res
+[DEBUG]   (f) resourceOverlayDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/res-overlay
+[DEBUG]   (f) path = /Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk
+[DEBUG]   (f) platform = 16
+[DEBUG]   (f) sdk = com.jayway.maven.plugins.android.configuration.Sdk@4a412f4b
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG]   (f) sourceDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/main/java
+[DEBUG]   (f) undeployBeforeDeploy = true
+[DEBUG]   (f) unpackedApkLibsDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/unpack/apklibs
+[DEBUG] -- end configuration --
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/com/jayway/maven/plugins/android/generation2/android-maven-plugin/3.5.0/android-maven-plugin-3.5.0.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/com/android/ddmlib/ddmlib/r16/ddmlib-r16.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/sonatype/sisu/sisu-inject-bean/2.1.1/sisu-inject-bean-2.1.1.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.14/plexus-interpolation-1.14.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-component-annotations/1.5.5/plexus-component-annotations-1.5.5.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/sonatype/plexus/plexus-sec-dispatcher/1.3/plexus-sec-dispatcher-1.3.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/sonatype/plexus/plexus-cipher/1.4/plexus-cipher-1.4.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/emma/emma/2.1.5320/emma-2.1.5320.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-archiver/2.2/plexus-archiver-2.2.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/junit/junit/3.8.1/junit-3.8.1.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-io/2.0.4/plexus-io-2.0.4.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-utils/3.0.10/plexus-utils-3.0.10.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/commons-jxpath/commons-jxpath/1.3/commons-jxpath-1.3.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/commons-io/commons-io/2.4/commons-io-2.4.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/commons-lang/commons-lang/2.6/commons-lang-2.6.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/org/sonatype/aether/aether-util/1.13.1/aether-util-1.13.1.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/com/github/rtyley/android-screenshot-paparazzo/1.8/android-screenshot-paparazzo-1.8.jar
+[DEBUG] pluginArtifact: /Users/Sreekanth/.m2/repository/com/madgag/animated-gif-lib/1.0/animated-gif-lib-1.0.jar
+[INFO] 
+[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ my-android-application ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-resources-plugin:2.6:testResources from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-resources-plugin:2.6, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-resources-plugin:2.6:testResources' with basic configurator -->
+[DEBUG]   (f) buildFilters = []
+[DEBUG]   (f) escapeWindowsPaths = true
+[DEBUG]   (s) includeEmptyDirs = false
+[DEBUG]   (s) outputDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+[DEBUG]   (s) overwrite = false
+[DEBUG]   (f) project = MavenProject: your.company:my-android-application:1.0-SNAPSHOT @ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/pom.xml
+[DEBUG]   (s) resources = [Resource {targetPath: null, filtering: false, FileSet {directory: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/test/resources, PatternSet [includes: {}, excludes: {}]}}]
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG]   (f) supportMultiLineFiltering = false
+[DEBUG]   (f) useBuildFilters = true
+[DEBUG]   (s) useDefaultDelimiters = true
+[DEBUG] -- end configuration --
+[DEBUG] properties used {java.vendor=Apple Inc., sun.java.launcher=SUN_STANDARD, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, env.COLORFGBG=7;0, os.name=Mac OS X, sun.boot.class.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsfd.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/classes.jar:/System/Library/Frameworks/JavaVM.framework/Frameworks/JavaRuntimeSupport.framework/Resources/Java/JavaRuntimeSupport.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/ui.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/laf.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/sunrsasign.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jsse.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/jce.jar:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Classes/charsets.jar, env.TMPDIR=/var/folders/AY/AYMsX3OlHryaCyCSnV0ST++++TM/-Tmp-/, env.PWD=/Users/Sreekanth/Documents/artoo/Code/Android/my-android-application, java.vm.specification.vendor=Sun Microsystems Inc., java.runtime.version=1.6.0_51-b11-456-10M4508, env.JAVA_MAIN_CLASS_934=org.codehaus.plexus.classworlds.launcher.Launcher, env.Apple_PubSub_Socket_Render=/tmp/launch-OkXqMF/Render, env.DISPLAY=/tmp/launch-0tI8vt/org.x:0, user.name=Sreekanth, maven.build.version=Apache Maven 3.0.5 (r01de14724cdef164cd33c7c8c2fe155faf9602da; 2013-02-19 19:21:28+0530), env.USER=Sreekanth, env.SHELL=/bin/bash, env.__CF_USER_TEXT_ENCODING=0x1F6:0:0, awt.nativeDoubleBuffering=true, env.PATH=/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin:/Applications/play-1.2:/usr/local/git/bin:/usr/X11/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/local/mysql/bin:/Applications/play-1.2:/usr/local/git/bin:/usr/X11/bin:/Users/Sreekanth/Work/ec2/bin:/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/platform-tools:/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk/tools:/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/bin:/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk, user.language=en, sun.boot.library.path=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Libraries, classworlds.conf=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/bin/m2.conf, env.LC_CTYPE=UTF-8, java.version=1.6.0_51, user.timezone=GMT+05:30, sun.arch.data.model=64, http.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, java.endorsed.dirs=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/endorsed, sun.cpu.isalist=, sun.jnu.encoding=MacRoman, env.ITERM_SESSION_ID=w0t0p0, file.encoding.pkg=sun.io, env.SHLVL=1, file.separator=/, java.specification.name=Java Platform API Specification, java.class.version=50.0, user.country=US, java.home=/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home, env.ANDROID_HOME=/Users/Sreekanth/Documents/artoo/adt-bundle-mac-x86_64-20130522/sdk, java.vm.info=mixed mode, env.LOGNAME=Sreekanth, os.version=10.6.8, path.separator=:, java.vm.version=20.51-b01-456, java.awt.printerjob=apple.awt.CPrinterJob, env.TERM=xterm, sun.io.unicode.encoding=UnicodeLittle, awt.toolkit=apple.awt.CToolkit, socksNonProxyHosts=local|*.local|169.254/16|*.169.254/16, ftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16, user.home=/Users/Sreekanth, java.specification.vendor=Sun Microsystems Inc., env.TERM_PROGRAM=iTerm.app, env.M2_HOME=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5, java.library.path=.:/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java, java.vendor.url=http://www.apple.com/, java.vm.vendor=Apple Inc., gopherProxySet=false, maven.home=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5, java.runtime.name=Java(TM) SE Runtime Environment, sun.java.command=org.codehaus.plexus.classworlds.launcher.Launcher -X clean test, java.class.path=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/boot/plexus-classworlds-2.4.jar, env.com.apple.java.jvmMode=client, maven.version=3.0.5, java.vm.specification.name=Java Virtual Machine Specification, java.vm.specification.version=1.0, sun.cpu.endian=little, sun.os.patch.level=unknown, env.HOME=/Users/Sreekanth, java.io.tmpdir=/var/folders/AY/AYMsX3OlHryaCyCSnV0ST++++TM/-Tmp-/, java.vendor.url.bug=http://bugreport.apple.com/, env.MAVEN_OPTS=-Xms256m -Xmx512m, env.SSH_AUTH_SOCK=/tmp/launch-5JPknS/Listeners, env.COMMAND_MODE=unix2003, mrj.build=10M4508, os.arch=x86_64, java.awt.graphicsenv=apple.awt.CGraphicsEnvironment, java.ext.dirs=/Library/Java/Extensions:/System/Library/Java/Extensions:/System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/lib/ext, mrj.version=1060.1.6.0_51-456, env.com.apple.java.jvmTask=CommandLine_Manual.java, user.dir=/users/Sreekanth/Documents/artoo/Code/Android/my-android-application, line.separator=
+, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, env.ITERM_PROFILE=Default, env.M2=/Users/Sreekanth/Documents/artoo/apache-maven-3.0.5/bin, file.encoding=MacRoman, java.specification.version=1.6}
+[WARNING] Using platform encoding (MacRoman actually) to copy filtered resources, i.e. build is platform dependent!
+[DEBUG] resource with targetPath null
+directory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/test/resources
+excludes []
+includes []
+[INFO] skip non existing resourceDirectory /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/test/resources
+[DEBUG] no use filter components
+[INFO] 
+[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ my-android-application ---
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-compiler-plugin:3.1, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile' with basic configurator -->
+[DEBUG]   (f) basedir = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application
+[DEBUG]   (f) buildDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target
+[DEBUG]   (f) classpathElements = [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes, /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes, /Users/Sreekanth/.m2/repository/com/google/android/android/2.2.1/android-2.2.1.jar, /Users/Sreekanth/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar, /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar, /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar, /Users/Sreekanth/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar, /Users/Sreekanth/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar, /Users/Sreekanth/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar, /Users/Sreekanth/.m2/repository/org/json/json/20080701/json-20080701.jar, /Users/Sreekanth/.m2/repository/org/robolectric/robolectric/2.1.1/robolectric-2.1.1.jar, /Users/Sreekanth/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar, /Users/Sreekanth/.m2/repository/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar, /Users/Sreekanth/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar, /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar, /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar, /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar, /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar, /Users/Sreekanth/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar, /Users/Sreekanth/.m2/repository/com/ximpleware/vtd-xml/2.11/vtd-xml-2.11.jar, /Users/Sreekanth/.m2/repository/com/google/android/support-v4/r7/support-v4-r7.jar, /Users/Sreekanth/.m2/repository/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar, /Users/Sreekanth/.m2/repository/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar, /Users/Sreekanth/.m2/repository/com/googlecode/catch-exception/catch-exception/1.0.4/catch-exception-1.0.4.jar, /Users/Sreekanth/.m2/repository/org/mockito/mockito-core/1.8.5/mockito-core-1.8.5.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar, /Users/Sreekanth/.m2/repository/org/apache/ant/ant/1.8.0/ant-1.8.0.jar, /Users/Sreekanth/.m2/repository/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar, /Users/Sreekanth/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar, /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar, /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar, /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar, /Users/Sreekanth/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar, /Users/Sreekanth/.m2/repository/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar, /Users/Sreekanth/.m2/repository/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar, /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar, /Users/Sreekanth/.m2/repository/junit/junit/4.11/junit-4.11.jar, /Users/Sreekanth/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG]   (f) compileSourceRoots = [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/test/java]
+[DEBUG]   (f) compilerId = javac
+[DEBUG]   (f) debug = true
+[DEBUG]   (f) failOnError = true
+[DEBUG]   (f) forceJavacCompilerUse = false
+[DEBUG]   (f) fork = false
+[DEBUG]   (f) generatedTestSourcesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/generated-test-sources/test-annotations
+[DEBUG]   (f) mojoExecution = org.apache.maven.plugins:maven-compiler-plugin:3.1:testCompile {execution: default-testCompile}
+[DEBUG]   (f) optimize = false
+[DEBUG]   (f) outputDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+[DEBUG]   (f) showDeprecation = false
+[DEBUG]   (f) showWarnings = false
+[DEBUG]   (f) skipMultiThreadWarning = false
+[DEBUG]   (f) source = 1.5
+[DEBUG]   (f) staleMillis = 0
+[DEBUG]   (f) target = 1.5
+[DEBUG]   (f) useIncrementalCompilation = true
+[DEBUG]   (f) verbose = false
+[DEBUG]   (f) mavenSession = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG]   (f) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG] -- end configuration --
+[DEBUG] Using compiler 'javac'.
+[DEBUG] Source directories: [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/test/java]
+[DEBUG] Classpath: [/users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+ /Users/Sreekanth/.m2/repository/com/google/android/android/2.2.1/android-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpclient/4.0.1/httpclient-4.0.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/httpcomponents/httpcore/4.0.1/httpcore-4.0.1.jar
+ /Users/Sreekanth/.m2/repository/org/khronos/opengl-api/gl1.1-android-2.1_r1/opengl-api-gl1.1-android-2.1_r1.jar
+ /Users/Sreekanth/.m2/repository/xerces/xmlParserAPIs/2.6.2/xmlParserAPIs-2.6.2.jar
+ /Users/Sreekanth/.m2/repository/xpp3/xpp3/1.1.4c/xpp3-1.1.4c.jar
+ /Users/Sreekanth/.m2/repository/org/json/json/20080701/json-20080701.jar
+ /Users/Sreekanth/.m2/repository/org/robolectric/robolectric/2.1.1/robolectric-2.1.1.jar
+ /Users/Sreekanth/.m2/repository/org/objenesis/objenesis/1.3/objenesis-1.3.jar
+ /Users/Sreekanth/.m2/repository/org/xerial/sqlite-jdbc/3.7.2/sqlite-jdbc-3.7.2.jar
+ /Users/Sreekanth/.m2/repository/org/ow2/asm/asm/4.1/asm-4.1.jar
+ /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-commons/4.1/asm-commons-4.1.jar
+ /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-tree/4.1/asm-tree-4.1.jar
+ /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-util/4.1/asm-util-4.1.jar
+ /Users/Sreekanth/.m2/repository/org/ow2/asm/asm-analysis/4.1/asm-analysis-4.1.jar
+ /Users/Sreekanth/.m2/repository/commons-codec/commons-codec/1.3/commons-codec-1.3.jar
+ /Users/Sreekanth/.m2/repository/com/ximpleware/vtd-xml/2.11/vtd-xml-2.11.jar
+ /Users/Sreekanth/.m2/repository/com/google/android/support-v4/r7/support-v4-r7.jar
+ /Users/Sreekanth/.m2/repository/org/easytesting/fest-util/1.2.5/fest-util-1.2.5.jar
+ /Users/Sreekanth/.m2/repository/org/easytesting/fest-reflect/1.4.1/fest-reflect-1.4.1.jar
+ /Users/Sreekanth/.m2/repository/com/googlecode/catch-exception/catch-exception/1.0.4/catch-exception-1.0.4.jar
+ /Users/Sreekanth/.m2/repository/org/mockito/mockito-core/1.8.5/mockito-core-1.8.5.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-ant-tasks/2.1.3/maven-ant-tasks-2.1.3.jar
+ /Users/Sreekanth/.m2/repository/org/apache/ant/ant/1.8.0/ant-1.8.0.jar
+ /Users/Sreekanth/.m2/repository/org/apache/ant/ant-launcher/1.8.0/ant-launcher-1.8.0.jar
+ /Users/Sreekanth/.m2/repository/classworlds/classworlds/1.1-alpha-2/classworlds-1.1-alpha-2.jar
+ /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-container-default/1.0-alpha-9-stable-1/plexus-container-default-1.0-alpha-9-stable-1.jar
+ /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-utils/1.5.15/plexus-utils-1.5.15.jar
+ /Users/Sreekanth/.m2/repository/org/codehaus/plexus/plexus-interpolation/1.11/plexus-interpolation-1.11.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-artifact/2.2.1/maven-artifact-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-artifact-manager/2.2.1/maven-artifact-manager-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-repository-metadata/2.2.1/maven-repository-metadata-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/backport-util-concurrent/backport-util-concurrent/3.1/backport-util-concurrent-3.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-model/2.2.1/maven-model-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-project/2.2.1/maven-project-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-profile/2.2.1/maven-profile-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-plugin-registry/2.2.1/maven-plugin-registry-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-error-diagnostics/2.2.1/maven-error-diagnostics-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/maven-settings/2.2.1/maven-settings-2.2.1.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-file/1.0-beta-6/wagon-file-1.0-beta-6.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-http-lightweight/1.0-beta-6/wagon-http-lightweight-1.0-beta-6.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-http-shared/1.0-beta-6/wagon-http-shared-1.0-beta-6.jar
+ /Users/Sreekanth/.m2/repository/nekohtml/xercesMinimal/1.9.6.2/xercesMinimal-1.9.6.2.jar
+ /Users/Sreekanth/.m2/repository/nekohtml/nekohtml/1.9.6.2/nekohtml-1.9.6.2.jar
+ /Users/Sreekanth/.m2/repository/org/apache/maven/wagon/wagon-provider-api/1.0-beta-6/wagon-provider-api-1.0-beta-6.jar
+ /Users/Sreekanth/.m2/repository/junit/junit/4.11/junit-4.11.jar
+ /Users/Sreekanth/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar]
+[DEBUG] Output directory: /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+[DEBUG] CompilerReuseStrategy: reuseCreated
+[DEBUG] useIncrementalCompilation enabled
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-surefire-plugin:2.15:test (default-test) @ my-android-application ---
+[DEBUG] org.apache.maven.plugins:maven-surefire-plugin:jar:2.15:
+[DEBUG]    org.apache.maven:maven-plugin-api:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.surefire:maven-surefire-common:jar:2.15:compile
+[DEBUG]       org.apache.maven.surefire:surefire-booter:jar:2.15:compile
+[DEBUG]       org.apache.maven:maven-artifact:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-utils:jar:1.5.1:compile
+[DEBUG]       org.apache.maven:maven-plugin-descriptor:jar:2.0.9:compile
+[DEBUG]          org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:compile
+[DEBUG]             junit:junit:jar:3.8.1:test (scope managed from compile)
+[DEBUG]       org.apache.maven:maven-project:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-settings:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-profile:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-artifact-manager:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-registry:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-model:jar:2.0.9:compile
+[DEBUG]       org.apache.maven:maven-core:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9:compile
+[DEBUG]          org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-repository-metadata:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-error-diagnostics:jar:2.0.9:compile
+[DEBUG]          org.apache.maven:maven-monitor:jar:2.0.9:compile
+[DEBUG]          classworlds:classworlds:jar:1.1:compile
+[DEBUG]       org.apache.commons:commons-lang3:jar:3.1:compile
+[DEBUG]    org.apache.maven.surefire:surefire-api:jar:2.15:compile
+[DEBUG]    org.apache.maven:maven-toolchain:jar:2.0.9:compile
+[DEBUG]    org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile
+[DEBUG] Created new class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.15
+[DEBUG] Importing foreign packages into class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.15
+[DEBUG]   Imported:  < project>your.company:my-android-application:1.0-SNAPSHOT
+[DEBUG] Populating class realm plugin>org.apache.maven.plugins:maven-surefire-plugin:2.15
+[DEBUG]   Included: org.apache.maven.plugins:maven-surefire-plugin:jar:2.15
+[DEBUG]   Included: org.apache.maven.surefire:maven-surefire-common:jar:2.15
+[DEBUG]   Included: org.apache.maven.surefire:surefire-booter:jar:2.15
+[DEBUG]   Included: org.codehaus.plexus:plexus-utils:jar:1.5.1
+[DEBUG]   Included: org.apache.maven.reporting:maven-reporting-api:jar:2.0.9
+[DEBUG]   Included: org.apache.commons:commons-lang3:jar:3.1
+[DEBUG]   Included: org.apache.maven.surefire:surefire-api:jar:2.15
+[DEBUG]   Included: org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-api:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-descriptor:jar:2.0.9
+[DEBUG]   Excluded: org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1
+[DEBUG]   Excluded: junit:junit:jar:3.8.1
+[DEBUG]   Excluded: org.apache.maven:maven-project:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-settings:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-profile:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-artifact-manager:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-registry:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-model:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-core:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-plugin-parameter-documenter:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-repository-metadata:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-error-diagnostics:jar:2.0.9
+[DEBUG]   Excluded: org.apache.maven:maven-monitor:jar:2.0.9
+[DEBUG]   Excluded: classworlds:classworlds:jar:1.1
+[DEBUG]   Excluded: org.apache.maven:maven-toolchain:jar:2.0.9
+[DEBUG] Configuring mojo org.apache.maven.plugins:maven-surefire-plugin:2.15:test from plugin realm ClassRealm[plugin>org.apache.maven.plugins:maven-surefire-plugin:2.15, parent: sun.misc.Launcher$AppClassLoader@69cd2e5f]
+[DEBUG] Configuring mojo 'org.apache.maven.plugins:maven-surefire-plugin:2.15:test' with basic configurator -->
+[DEBUG]   (s) additionalClasspathElements = []
+[DEBUG]   (s) basedir = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application
+[DEBUG]   (s) childDelegation = false
+[DEBUG]   (s) classesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/classes
+[DEBUG]   (s) classpathDependencyExcludes = []
+[DEBUG]   (s) dependenciesToScan = []
+[DEBUG]   (s) disableXmlReport = false
+[DEBUG]   (s) enableAssertions = true
+[DEBUG]   (f) forkCount = 1
+[DEBUG]   (s) forkMode = once
+[DEBUG]   (s) junitArtifactName = junit:junit
+[DEBUG]   (s) localRepository =        id: local
+      url: file:///Users/Sreekanth/.m2/repository/
+   layout: none
+
+[DEBUG]   (f) parallelMavenExecution = false
+[DEBUG]   (s) perCoreThreadCount = true
+[DEBUG]   (s) pluginArtifactMap = {org.apache.maven.plugins:maven-surefire-plugin=org.apache.maven.plugins:maven-surefire-plugin:maven-plugin:2.15:, org.apache.maven.surefire:maven-surefire-common=org.apache.maven.surefire:maven-surefire-common:jar:2.15:compile, org.apache.maven.surefire:surefire-booter=org.apache.maven.surefire:surefire-booter:jar:2.15:compile, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.1:compile, org.apache.maven.reporting:maven-reporting-api=org.apache.maven.reporting:maven-reporting-api:jar:2.0.9:compile, org.apache.commons:commons-lang3=org.apache.commons:commons-lang3:jar:3.1:compile, org.apache.maven.surefire:surefire-api=org.apache.maven.surefire:surefire-api:jar:2.15:compile, org.apache.maven.plugin-tools:maven-plugin-annotations=org.apache.maven.plugin-tools:maven-plugin-annotations:jar:3.2:compile}
+[DEBUG]   (f) pluginDescriptor = Component Descriptor: role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.SurefirePlugin', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.15:test'
+role: 'org.apache.maven.plugin.Mojo', implementation: 'org.apache.maven.plugin.surefire.HelpMojo', role hint: 'org.apache.maven.plugins:maven-surefire-plugin:2.15:help'
+---
+[DEBUG]   (s) printSummary = true
+[DEBUG]   (s) projectArtifactMap = {com.google.android:android=com.google.android:android:jar:2.2.1:provided, commons-logging:commons-logging=commons-logging:commons-logging:jar:1.1.1:provided, org.apache.httpcomponents:httpclient=org.apache.httpcomponents:httpclient:jar:4.0.1:provided, org.apache.httpcomponents:httpcore=org.apache.httpcomponents:httpcore:jar:4.0.1:provided, org.khronos:opengl-api=org.khronos:opengl-api:jar:gl1.1-android-2.1_r1:provided, xerces:xmlParserAPIs=xerces:xmlParserAPIs:jar:2.6.2:provided, xpp3:xpp3=xpp3:xpp3:jar:1.1.4c:provided, org.json:json=org.json:json:jar:20080701:provided, org.robolectric:robolectric=org.robolectric:robolectric:jar:2.1.1:test, org.objenesis:objenesis=org.objenesis:objenesis:jar:1.3:test, org.xerial:sqlite-jdbc=org.xerial:sqlite-jdbc:jar:3.7.2:test, org.ow2.asm:asm=org.ow2.asm:asm:jar:4.1:test, org.ow2.asm:asm-commons=org.ow2.asm:asm-commons:jar:4.1:test, org.ow2.asm:asm-tree=org.ow2.asm:asm-tree:jar:4.1:test, org.ow2.asm:asm-util=org.ow2.asm:asm-util:jar:4.1:test, org.ow2.asm:asm-analysis=org.ow2.asm:asm-analysis:jar:4.1:test, commons-codec:commons-codec=commons-codec:commons-codec:jar:1.3:provided, com.ximpleware:vtd-xml=com.ximpleware:vtd-xml:jar:2.11:test, com.google.android:support-v4=com.google.android:support-v4:jar:r7:test, org.easytesting:fest-util=org.easytesting:fest-util:jar:1.2.5:test, org.easytesting:fest-reflect=org.easytesting:fest-reflect:jar:1.4.1:test, com.googlecode.catch-exception:catch-exception=com.googlecode.catch-exception:catch-exception:jar:1.0.4:test, org.mockito:mockito-core=org.mockito:mockito-core:jar:1.8.5:test, org.apache.maven:maven-ant-tasks=org.apache.maven:maven-ant-tasks:jar:2.1.3:test, org.apache.ant:ant=org.apache.ant:ant:jar:1.8.0:test, org.apache.ant:ant-launcher=org.apache.ant:ant-launcher:jar:1.8.0:test, classworlds:classworlds=classworlds:classworlds:jar:1.1-alpha-2:test, org.codehaus.plexus:plexus-container-default=org.codehaus.plexus:plexus-container-default:jar:1.0-alpha-9-stable-1:test, org.codehaus.plexus:plexus-utils=org.codehaus.plexus:plexus-utils:jar:1.5.15:test, org.codehaus.plexus:plexus-interpolation=org.codehaus.plexus:plexus-interpolation:jar:1.11:test, org.apache.maven:maven-artifact=org.apache.maven:maven-artifact:jar:2.2.1:test, org.apache.maven:maven-artifact-manager=org.apache.maven:maven-artifact-manager:jar:2.2.1:test, org.apache.maven:maven-repository-metadata=org.apache.maven:maven-repository-metadata:jar:2.2.1:test, backport-util-concurrent:backport-util-concurrent=backport-util-concurrent:backport-util-concurrent:jar:3.1:test, org.apache.maven:maven-model=org.apache.maven:maven-model:jar:2.2.1:test, org.apache.maven:maven-project=org.apache.maven:maven-project:jar:2.2.1:test, org.apache.maven:maven-profile=org.apache.maven:maven-profile:jar:2.2.1:test, org.apache.maven:maven-plugin-registry=org.apache.maven:maven-plugin-registry:jar:2.2.1:test, org.apache.maven:maven-error-diagnostics=org.apache.maven:maven-error-diagnostics:jar:2.2.1:test, org.apache.maven:maven-settings=org.apache.maven:maven-settings:jar:2.2.1:test, org.apache.maven.wagon:wagon-file=org.apache.maven.wagon:wagon-file:jar:1.0-beta-6:test, org.apache.maven.wagon:wagon-http-lightweight=org.apache.maven.wagon:wagon-http-lightweight:jar:1.0-beta-6:test, org.apache.maven.wagon:wagon-http-shared=org.apache.maven.wagon:wagon-http-shared:jar:1.0-beta-6:test, nekohtml:xercesMinimal=nekohtml:xercesMinimal:jar:1.9.6.2:test, nekohtml:nekohtml=nekohtml:nekohtml:jar:1.9.6.2:test, org.apache.maven.wagon:wagon-provider-api=org.apache.maven.wagon:wagon-provider-api:jar:1.0-beta-6:test, junit:junit=junit:junit:jar:4.11:test, org.hamcrest:hamcrest-core=org.hamcrest:hamcrest-core:jar:1.3:test}
+[DEBUG]   (s) redirectTestOutputToFile = false
+[DEBUG]   (s) remoteRepositories = [       id: central
+      url: http://repo.maven.apache.org/maven2
+   layout: default
+snapshots: [enabled => false, update => daily]
+ releases: [enabled => true, update => never]
+]
+[DEBUG]   (s) reportFormat = brief
+[DEBUG]   (s) reportsDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/surefire-reports
+[DEBUG]   (f) reuseForks = true
+[DEBUG]   (s) runOrder = filesystem
+[DEBUG]   (s) skip = false
+[DEBUG]   (s) skipTests = false
+[DEBUG]   (s) testClassesDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/target/test-classes
+[DEBUG]   (s) testFailureIgnore = false
+[DEBUG]   (s) testNGArtifactName = org.testng:testng
+[DEBUG]   (s) testSourceDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/src/test/java
+[DEBUG]   (s) trimStackTrace = true
+[DEBUG]   (s) useFile = true
+[DEBUG]   (s) useManifestOnlyJar = true
+[DEBUG]   (s) useSystemClassLoader = true
+[DEBUG]   (s) useUnlimitedThreads = false
+[DEBUG]   (s) workingDirectory = /users/Sreekanth/Documents/artoo/Code/Android/my-android-application
+[DEBUG]   (s) project = MavenProject: your.company:my-android-application:1.0-SNAPSHOT @ /users/Sreekanth/Documents/artoo/Code/Android/my-android-application/pom.xml
+[DEBUG]   (s) session = org.apache.maven.execution.MavenSession@4950b45a
+[DEBUG] -- end configuration --
+[INFO] No tests to run.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 3.303s
+[INFO] Finished at: Fri Jul 05 11:45:43 GMT+05:30 2013
+[INFO] Final Memory: 14M/265M
+[INFO] ------------------------------------------------------------------------

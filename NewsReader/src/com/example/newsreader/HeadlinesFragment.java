@@ -8,6 +8,7 @@ import java.util.List;
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
 import org.apache.http.StatusLine;
+import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.HttpClient;
 import org.apache.http.client.methods.HttpGet;
 import org.apache.http.impl.client.DefaultHttpClient;
@@ -18,21 +19,31 @@ import android.content.Context;
 import android.content.res.Configuration;
 import android.os.AsyncTask;
 import android.os.Bundle;
-import android.support.v4.app.ListFragment;
 import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ListView;
 import android.widget.TextView;
+import android.widget.Toast;
 
+import com.actionbarsherlock.app.SherlockListFragment;
+import com.actionbarsherlock.view.Menu;
+import com.actionbarsherlock.view.MenuInflater;
+import com.actionbarsherlock.view.MenuItem;
 import com.example.newsreader.GoogleNewsXmlParser.Item;
 import com.example.newsreader.model.NewsArticle;
 
-public class HeadlinesFragment extends ListFragment {
+public class HeadlinesFragment extends SherlockListFragment {
 
-	private static final String URL = "https://news.google.co.in/news/feeds?pz=1&cf=all&ned=in&hl=en&output=rss";
-	public static List<NewsArticle> mNewsArticles = null;
+	private static final String[] URL = {
+			"https://news.google.co.in/news/feeds?pz=1&cf=all&ned=in&hl=en&output=rss",
+			"https://news.google.co.in/news/feeds?pz=1&cf=all&ned=in&hl=en&topic=b&output=rss",
+			"http://news.google.co.in/news?pz=1&cf=all&ned=in&hl=en&topic=s&output=rss",
+			"https://news.google.co.in/news/feeds?pz=1&cf=all&ned=in&hl=en&topic=tc&output=rss",
+			"https://news.google.com/news/feeds?pz=1&cf=all&ned=in&hl=en&topic=m&output=rss" };
+	protected static final String ARG_POSITION = "drawer_item_position";
+	public static List<NewsArticle> mNewsArticles = new ArrayList<NewsArticle>();
 	OnHeadlineSelectedListener mCallback;
 
 	@Override
@@ -53,21 +64,9 @@ public class HeadlinesFragment extends ListFragment {
 		protected List<Item> doInBackground(String... params) {
 			List<Item> mItems = null;
 			String url = params[0];
+			GoogleNewsXmlParser mParser = new GoogleNewsXmlParser();
 			try {
-				GoogleNewsXmlParser mParser = new GoogleNewsXmlParser();
-
-				InputStream content = null;
-				HttpClient client = new DefaultHttpClient();
-				HttpGet httpGet = new HttpGet(url);
-				HttpResponse response;
-				response = client.execute(httpGet);
-				StatusLine statusline = response.getStatusLine();
-				if (statusline.getStatusCode() == 200) {
-					HttpEntity entity = response.getEntity();
-					content = entity.getContent();
-				} else {
-					Log.e("Mainactivity String Conversion", "Error in network");
-				}
+				InputStream content = downloadUrl(url);
 
 				try {
 					mItems = mParser.Parse(content);
@@ -85,18 +84,46 @@ public class HeadlinesFragment extends ListFragment {
 
 		@Override
 		protected void onPostExecute(List<Item> result) {
-			mNewsArticles = new ArrayList<NewsArticle>();
-			super.onPostExecute(result);
-			for (Item iItem : result) {
-
-				NewsArticle article = new NewsArticle();
-				article.setHeadline(iItem.Title);
-				article.setSummary(iItem.Summary);
-				mNewsArticles.add(article);
+			// mNewsArticles = new ArrayList<NewsArticle>();
+			if (mNewsArticles == null) {
+				mNewsArticles = new ArrayList<NewsArticle>();
 			}
-			setListAdapter(new NewsAdapter(getActivity(), mNewsArticles));
-
+			if (getFragmentManager() != null) {
+				super.onPostExecute(result);
+				for (Item iItem : result) {
+					NewsArticle article = new NewsArticle();
+					article.setHeadline(iItem.Title);
+					article.setSummary(iItem.Summary);
+					mNewsArticles.add(article);
+				}
+				if (getListView().getAdapter() == null) {
+					NewsAdapter mNewsAdapter = new NewsAdapter(getActivity(),
+							mNewsArticles);
+					setListAdapter(mNewsAdapter);
+				} else {
+					((BaseAdapter) getListView().getAdapter())
+							.notifyDataSetChanged();
+				}
+			}
 		}
+	}
+
+	public InputStream downloadUrl(String url) throws ClientProtocolException,
+			IOException {
+
+		InputStream content = null;
+		HttpClient client = new DefaultHttpClient();
+		HttpGet httpGet = new HttpGet(url);
+		HttpResponse response;
+		response = client.execute(httpGet);
+		StatusLine statusline = response.getStatusLine();
+		if (statusline.getStatusCode() == 200) {
+			HttpEntity entity = response.getEntity();
+			content = entity.getContent();
+		} else {
+			Log.e("Mainactivity String Conversion", "Error in network");
+		}
+		return content;
 	}
 
 	@Override
@@ -104,39 +131,42 @@ public class HeadlinesFragment extends ListFragment {
 		super.onActivityCreated(savedInstanceState);
 		setRetainInstance(true);
 		getListView().setChoiceMode(ListView.CHOICE_MODE_SINGLE);
-//		int position = getListView().getCheckedItemPosition();
-		if (mNewsArticles == null) {
-			new RetreiveFeedTask().execute(URL);
-		} else {
-			// since it is retaining state, do nothing
-		}
-	}
-	
-	
-	
-	@Override
-	public void onStart() {
-		// TODO find reason behind why findViewById(R,id.article_frag) coming null 
-		super.onStart();
-		int position = getListView().getCheckedItemPosition();
-		//if(getView().findViewById(R.id.article_frag) !=null) {
-		if(getResources().getConfiguration().orientation==Configuration.ORIENTATION_LANDSCAPE && position >=0){
-			NewsArticle selectedNewsArticle = mNewsArticles.get(position);
-			mCallback.OnArticleSelected(selectedNewsArticle.getHeadline(), selectedNewsArticle.getSummary());
-		}
-		
+
+		// setListAdapter(mNewsAdapter);
+		// if (mNewsArticles == null) {
+		new RetreiveFeedTask()
+				.execute(URL[getArguments().getInt(ARG_POSITION)]);
+		// }
 	}
 
-	
+	@Override
+	public void onStart() {
+		// TODO find reason behind why findViewById(R,id.article_frag) coming
+		// null
+		super.onStart();
+		int position = getListView().getCheckedItemPosition();
+		// if(getView().findViewById(R.id.article_frag) !=null) {
+		if (getResources().getConfiguration().orientation == Configuration.ORIENTATION_LANDSCAPE
+				&& position >= 0) {
+			NewsArticle selectedNewsArticle = mNewsArticles.get(position);
+			mCallback.OnArticleSelected(selectedNewsArticle.getHeadline(),
+					selectedNewsArticle.getSummary());
+		}
+
+	}
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setHasOptionsMenu(true);
+
+	}
 
 	@Override
 	public void onDestroy() {
-		// TODO Auto-generated method stub
 		super.onDestroy();
 		mNewsArticles = null;
 	}
-
-
 
 	@Override
 	public void onListItemClick(ListView l, View v, int position, long id) {
@@ -148,7 +178,7 @@ public class HeadlinesFragment extends ListFragment {
 
 	}
 
-	private class NewsAdapter extends BaseAdapter {
+	public class NewsAdapter extends BaseAdapter {
 
 		private List<NewsArticle> data;
 
@@ -163,7 +193,7 @@ public class HeadlinesFragment extends ListFragment {
 
 		@Override
 		public Object getItem(int position) {
-			return position < data.size() - 1 ? data.get(position) : null;
+			return position < data.size() ? data.get(position) : null;
 		}
 
 		@Override
@@ -183,21 +213,39 @@ public class HeadlinesFragment extends ListFragment {
 			} else {
 				holder = (Holder) convertView.getTag();
 			}
-
 			NewsArticle article = data.get(position);
 			holder.tvTitle.setText(article.getHeadline());
 			holder.title = article.getHeadline();
 			holder.summary = article.getSummary();
-
 			convertView.setTag(holder);
-
 			return convertView;
 		}
 
 	}
 
-	private class Holder {
+	public class Holder {
 		TextView tvTitle;
 		String title, summary;
 	}
+
+	@Override
+	public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+		super.onCreateOptionsMenu(menu, inflater);
+		inflater.inflate(R.menu.main, menu);
+	}
+
+	@Override
+	public boolean onOptionsItemSelected(MenuItem item) {
+		switch (item.getItemId()) {
+		case R.id.menu_refresh:
+			mNewsArticles.clear();
+			Toast.makeText(getActivity(), "Refreshing..", Toast.LENGTH_LONG)
+					.show();
+			new RetreiveFeedTask().execute(URL[getArguments().getInt(
+					ARG_POSITION)]);
+			break;
+		}
+		return super.onOptionsItemSelected(item);
+	}
+
 }

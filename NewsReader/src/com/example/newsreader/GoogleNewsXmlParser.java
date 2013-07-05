@@ -16,16 +16,18 @@ public class GoogleNewsXmlParser {
 
 	public List<Item> Parse(InputStream is) throws IOException,
 			XmlPullParserException {
-		// instantaniates XmlPullParser and set the inputStream
-		XmlPullParser parser = Xml.newPullParser();
 
+		// instantaniates XmlPullParser and set the inputStream
+
+		XmlPullParser parser = Xml.newPullParser();
 		parser.setFeature(XmlPullParser.FEATURE_PROCESS_NAMESPACES, false);
 		parser.setInput(is, null);
 		parser.nextTag();
+
 		return readFeed(parser);
 	}
 
-	private List<Item> readFeed(XmlPullParser parser)
+	private static List<Item> readFeed(XmlPullParser parser)
 			throws XmlPullParserException, IOException {
 		// TODO Auto-generated method stub
 		// process the feed.. look for item tag
@@ -45,8 +47,8 @@ public class GoogleNewsXmlParser {
 		return items;
 	}
 
-	private Item readItem(XmlPullParser parser) throws XmlPullParserException,
-			IOException {
+	private static Item readItem(XmlPullParser parser)
+			throws XmlPullParserException, IOException {
 		// TODO Auto-generated method stub
 		// extract data for the item tag and its nested tags title and link
 		parser.require(XmlPullParser.START_TAG, ns, "item");
@@ -69,29 +71,31 @@ public class GoogleNewsXmlParser {
 				}
 			}
 		}
-		Item mItem = new Item(title, link,summary);
+		Item mItem = new Item(title, link, summary);
 		return mItem;
 	}
 
-	private String readsummary(XmlPullParser parser) throws XmlPullParserException, IOException{
+	private static String readsummary(XmlPullParser parser)
+			throws XmlPullParserException, IOException {
 		String summary = "";
-		parser.require(XmlPullParser.START_TAG,ns,"description");
+		parser.require(XmlPullParser.START_TAG, ns, "description");
 		summary = readText(parser);
-		parser.require(XmlPullParser.END_TAG,ns,"description");
+		parser.require(XmlPullParser.END_TAG, ns, "description");
 		return summary;
 	}
 
-	private String readText(XmlPullParser parser) throws XmlPullParserException, IOException{
-		// TODO 
+	private static String readText(XmlPullParser parser)
+			throws XmlPullParserException, IOException {
+		// TODO
 		String result = "";
-		if(parser.next() == XmlPullParser.TEXT){
+		if (parser.next() == XmlPullParser.TEXT) {
 			result = parser.getText();
 			parser.nextTag();
 		}
 		return result;
 	}
 
-	private String readLink(XmlPullParser parser)
+	private static String readLink(XmlPullParser parser)
 			throws XmlPullParserException, IOException {
 		// TODO Auto-generated method stub
 		String link = "";
@@ -105,7 +109,7 @@ public class GoogleNewsXmlParser {
 		return link;
 	}
 
-	private String readTitle(XmlPullParser parser)
+	private static String readTitle(XmlPullParser parser)
 			throws XmlPullParserException, IOException {
 		// TODO Auto-generated method stub
 		String result = "";
@@ -119,8 +123,8 @@ public class GoogleNewsXmlParser {
 		return result;
 	}
 
-	private void skip(XmlPullParser parser) throws XmlPullParserException,
-			IOException {
+	private static void skip(XmlPullParser parser)
+			throws XmlPullParserException, IOException {
 		// TODO Auto-generated method stub
 		if (parser.getEventType() == XmlPullParser.START_TAG) {
 			int depth = 1;
@@ -138,12 +142,12 @@ public class GoogleNewsXmlParser {
 		}
 	}
 
-	public class Item {
+	public static class Item {
 		public String Title;
 		public String Link;
 		public String Summary;
 
-		private Item(String title, String link, String summary) {
+		Item(String title, String link, String summary) {
 			this.Title = title;
 			this.Link = link;
 			this.Summary = summary;

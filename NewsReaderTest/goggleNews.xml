@@ -1,0 +1,162 @@
+<rss version="2.0">
+<channel>
+<generator>NFE/1.0</generator>
+<title>Top Stories - Google News</title>
+<link>http://news.google.co.in/news?pz=1&ned=in&hl=en</link>
+<language>en</language>
+<webMaster>news-feedback@google.com</webMaster>
+<copyright>&copy;2013 Google</copyright>
+<pubDate>Tue, 02 Jul 2013 10:15:42 GMT</pubDate>
+<lastBuildDate>Tue, 02 Jul 2013 10:15:42 GMT</lastBuildDate>
+<image>
+<title>Top Stories - Google News</title>
+<url>
+http://www.gstatic.com/news-static/img/logo/en_in/news.gif
+</url>
+<link>http://news.google.co.in/news?pz=1&ned=in&hl=en</link>
+</image>
+<item>
+<title>
+title
+</title>
+<link>
+link
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778191407612</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 10:09:36 GMT</pubDate>
+<description>
+summary
+</description>
+</item>
+<item>
+<title>
+title1
+</title>
+<link>
+link1
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778190843578</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 08:44:01 GMT</pubDate>
+<description>
+summary1
+</description>
+</item>
+<item>
+<title>
+title2
+</title>
+<link>
+link2
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778190562926</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 09:10:00 GMT</pubDate>
+<description>
+summary2
+</description>
+</item>
+<item>
+<title>
+title3
+</title>
+<link>
+link3
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778191549793</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 09:47:42 GMT</pubDate>
+<description>
+summary3
+</description>
+</item>
+<item>
+<title>
+title4
+</title>
+<link>
+link4
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778191738663</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 07:21:02 GMT</pubDate>
+<description>
+summary4
+</description>
+</item>
+<item>
+<title>
+title5
+</title>
+<link>
+link5
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778191403809</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 08:40:39 GMT</pubDate>
+<description>
+summary5
+</description>
+</item>
+<item>
+<title>
+title6
+</title>
+<link>
+link6
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778191775157</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 10:05:49 GMT</pubDate>
+<description>
+summary6
+</description>
+</item>
+<item>
+<title>
+title7
+</title>
+<link>
+link7
+</link>
+<guid isPermaLink="false">
+tag:news.google.com,2005:cluster=http://www.dnaindia.com/india/1856030/report-crpf-presents-to-sushilkumar-shinde-rs-18-crore-cheque-for-uttarakhand-victims
+</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 09:54:00 GMT</pubDate>
+<description>
+summary7
+</description>
+</item>
+<item>
+<title>
+title8
+</title>
+<link>
+link8
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778191696334</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 06:39:49 GMT</pubDate>
+<description>
+summary8
+</description>
+</item>
+<item>
+<title>
+title9
+</title>
+<link>
+link9
+</link>
+<guid isPermaLink="false">tag:news.google.com,2005:cluster=52778190404140</guid>
+<category>Top Stories</category>
+<pubDate>Tue, 02 Jul 2013 10:02:34 GMT</pubDate>
+<description>
+summary9
+</description>
+</item>
+<description>Google News</description>
+</channel>
+</rss>
